@@ -6,35 +6,86 @@
     <meta name="description" content="Servicios de instalación y mantenimiento de paneles solares.">
     <meta name="keywords" content="energía solar, paneles solares, fotovoltaicos, mantenimiento, instalación">
     <meta name="author" content="Jacumo Solar">
-    <title>Jacumo Solar</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"/>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Jacumo Solar</title>
 </head>
 <body>
-    <header>
-        <h1>Jacumo Solar</h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="about.html">Quiénes somos</a>
-        </nav>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #111827;">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Jacumo Solar" height="30" class="d-inline-block align-text-top">
+                Jacumo Solar
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
     </header>
+        <main>
+            <section class="hero-slider">
+                <div class="slider-container-js">
+                    <div class="slider">
+                        <img src="img/img1.jpg" alt="Imagen 1" >
+                        <img src="img/img2.jpg" alt="Imagen 2">
+                        <img src="img/img3.jpg" alt="Imagen 3">
+                        <img src="img/img4.jpg" alt="Imagen 4">
+                    </div>
+                </div>
+                <div class="hero-overlay">
+                    <h1>Instalación y mantenimiento de sistemas fotovoltaicos</h1>
+                    <p>¡Aprovecha el poder del sol con nosotros!</p>
+                </div>
+            </section>
 
-    <main>
-        <section>
-            <h2>Instalación y mantenimiento de sistemas fotovoltaicos</h2>
-            <p>¡Aprovecha el poder del sol con nosotros!</p>
-        </section>
 
-        <section id="contacto">
-            <h3>Contáctanos</h3>
-            <form id="form-contacto">
-                <input type="text" name="nombre" placeholder="Tu nombre" required />
-                <input type="email" name="correo" placeholder="Tu correo" required />
-                <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+            <section id="contacto">
+                <h3>Contáctanos</h3>
+                <form id="form-contacto">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required />
+                    <input type="email" name="correo" placeholder="Tu correo" required />
+                    <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <p>&copy; 2025 Jacumo Solar. Todos los derechos reservados.</p>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="about.html">Quiénes somos</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <script src="js/main.js" defer></script>
 </html>
