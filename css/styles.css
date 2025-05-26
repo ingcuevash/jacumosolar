@@ -195,6 +195,27 @@ body {
     }
 }
 
+.btn-instagram {
+  display: inline-flex;
+  align-items: center;
+  background-color: #313131; /* Color característico de Instagram */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-instagram i {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.btn-instagram:hover {
+  background-color: #f5f836; /* Color más oscuro al pasar el cursor */
+}
+
 
 /* Seccion: Testimonios */
 .testimonials {
@@ -347,7 +368,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #d8c51f;
+  background-color: #f5f836;
 }
 
 /* Footer */

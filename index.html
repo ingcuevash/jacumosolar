@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Jacumo Solar | Inicio </title>
 </head>
 <body>
@@ -40,8 +40,9 @@
 <main>
     <section class="hero-slider">
         <div class="hero-overlay">
-            <h1>Consulta, optimiza y comienza hoy tu proyecto solar</h1>
-            <p>Todo lo que necesitas en energía solar, en un solo lugar.</p>
+            <h1>Cámbiate a energía solar, libérate de las cuentas de la luz y apagones</h1>
+            <link href="#contacto" class="cotiza-btn">
+            <p>Cotiza con nosotros tu mejor implementación.</p>
         </div>
      </section>
 
@@ -88,7 +89,10 @@
         <p>
         Conscientes del valor de la energía limpia, buscamos aportar al desarrollo energético sustentable mediante un trabajo serio, responsable y orientado a las necesidades reales de nuestros clientes.
         </p>
-        <a href="https://www.instagram.com/jacumosolar/"><i class="fab fa-instagram" style="color: #FFD43B;" ></i> Nuestro Instagram</a>
+        <a href="https://www.instagram.com/jacumosolar/" class="btn-instagram" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> Síguenos en Instagram
+        </a>
+
     </section>
     
     <section class="content testimonials">
@@ -143,9 +147,15 @@
         </div>
 
         <div class="form-group">
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" name="celular" required placeholder="Tu numero celular o teléfono" />
+        </div>
+
+        <div class="form-group">
         <label for="email">Correo electrónico:</label>
         <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com" />
         </div>
+
 
         <div class="form-group">
         <label for="mensaje">Mensaje:</label>
@@ -167,7 +177,6 @@
             <a href="#about-us">Sobre Nosotros</a>
             <a href="#servicios">Servicios</a>
             <a href="#contacto">Contacto</a>
-            <a href="#"><i class="fab fa-facebook-f" style="color: #FFD43B;"></i></a>
         </nav>
     </div>
 </footer>     
