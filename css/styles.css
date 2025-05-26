@@ -267,7 +267,7 @@ body {
 /* Seccion: Nuestros Proyectos */
 
 .proyectos {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -300,56 +300,54 @@ body {
 
 /* Formulario */
 #contacto {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
-#contacto h3 {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #202020;
-    font-family: 'Montserrat', sans-serif;
+#contacto h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-#form-contacto {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+
+.form-group {
+  margin-bottom: 1.2rem;
 }
 
-#form-contacto input,
-#form-contacto textarea {
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    resize: none;
-    font-family: 'Roboto', sans-serif;
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
 }
 
-#form-contacto textarea {
-    min-height: 120px;
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-#form-contacto button {
-    background-color: #202020;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+button[type="submit"] {
+  background-color: #858585;
+  color: white;
+  align-items: center;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-#form-contacto button:hover {
-    background-color: #FFD700; 
-    color: #202020;
+button[type="submit"]:hover {
+  background-color: #d8c51f;
 }
 
 /* Footer */
@@ -359,7 +357,8 @@ footer {
     padding: 30px 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 40px;
+    margin-top: 4rem;
+    padding-top: 1rem;
 }
 
 .footer-container {
@@ -410,7 +409,7 @@ footer nav a:hover {
     background-color: #0056b3;
 }
 
-.boton-flotante i{
+.boton-flotante i {
     margin-right: 8px;
     font-size: 18px;
 }
