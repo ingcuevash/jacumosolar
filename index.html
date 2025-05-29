@@ -36,7 +36,6 @@
         </div>
     </nav>
 </header>
-
 <main>
     <section class="hero-slider">
         <div class="hero-overlay">
@@ -45,32 +44,28 @@
             <p>Cotiza con nosotros tu mejor implementación.</p>
         </div>
      </section>
-
-
-
     <section class="content sau" id="servicios">
         <h2 class="title">Servicios</h2>
-        <p>Ofrecemos soluciones integrales en energía solar, mantenimiento y asesoría para ayudarte a optimizar el consumo de energetico de tu hogar o empresa, con un enfoque sustentable y de alta calidad</p>
+        <p>Ofrecemos soluciones integrales en energía solar, mantenimiento y asesoría para ayudarte a optimizar el consumo energético de tu hogar o empresa, con un enfoque sustentable y alta calidad</p>
         
         <div class="box-container">
 
             <div class="box">
                 <i class="fa-solid fa-solar-panel" style="color: #FFD43B;"></i>
                 <h3>Instalacíon de Sistemas Solares</h3>
-                <p>Diseñamos e instalamos sistemas solares a medida para hogares y empresas. Reduce tus costos energéticos y contribuye el cuidado del medio ambiente con energía limpia y renovable.</p>
+                <p>Diseñamos e instalamos sistemas solares a medida para hogares y empresas. Reduce tus costos energéticos y contribuye al cuidado del medio ambiente con energía limpia y renovable.</p>
             </div>
             <div class="box">
                 <i class="fa-solid fa-wrench" style="color: #FFD43B;"></i>
                 <h3>Mantención de Paneles y Baterías</h3>
-                <p>Realizamos mantenciones preventivas y correctivas que aseguran el óptimo rendimient de tus paneles solares y baterías. Alarga su vida útil y evita fallas inesperadas.</p>
+                <p>Realizamos mantenciones preventivas y correctivas que aseguran el óptimo rendimiento de tus paneles solares y baterías. Alarga su vida útil y evita fallas inesperadas.</p>
             </div>
             <div class="box">
                 <i class="fa-solid fa-money-check-dollar" style="color: #FFD43B;"></i>
                 <h3>Cotización de Productos</h3>
-                <p>Te ayudamos a elegir los componentes ideales para tu sistema fotovoltaico. Recibe asesoria técnica y una cotización detallada sin compromiso, adaptada a tu proyecto.</p>
+                <p>Te ayudamos a elegir los componentes ideales para tu sistema fotovoltaico. Recibe asesoría técnica y una cotización detallada sin compromiso, adaptada a tu proyecto.</p>
             </div>
         </div>
-
     </section>
           <section class="content about" id="about-us">
         <h2 class="title">Sobre Nosotros</h2>
@@ -92,9 +87,7 @@
         <a href="https://www.instagram.com/jacumosolar/" class="btn-instagram" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-instagram"></i> Síguenos en Instagram
         </a>
-
-    </section>
-    
+    </section>  
     <section class="content testimonials">
       <h2 class="title">Testimonios</h2>
       <div class="testimonial-box">
@@ -112,11 +105,8 @@
         </div>
       </div>
     </section>
-
-
     <section class="content proyectos">
     <h2 class="title">Nuestros Proyectos</h2>
-
     <div id="proyectosCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
         <div class="carousel-item active">
@@ -137,10 +127,9 @@
         </button>
     </div>
     </section>
-
     <section id="contacto">
     <h2>Contáctanos</h2>
-    <form id="formulario-contacto">
+    <form id="formulario-contacto" method="POST" action="conexion.php">
         <div class="form-group">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" />
@@ -148,12 +137,12 @@
 
         <div class="form-group">
             <label for="celular">Celular</label>
-            <input type="text" id="celular" name="celular" required placeholder="Tu numero celular o teléfono" />
+            <input type="text" id="celular" name="celular" required placeholder="Tu número celular o teléfono" />
         </div>
 
         <div class="form-group">
         <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com" />
+        <input type="email" id="email" name="email" required placeholder="Ingresa tu correo" />
         </div>
 
 
@@ -163,12 +152,10 @@
         </div>
 
         <button type="submit">Enviar</button>
-        <p id="mensaje-confirmacion" style="display:none; color: green;">¡Mensaje enviado correctamente!</p>
+        <p id="mensaje-confirmacion" style="display:none; color: green;">¡Mensaje enviado correctamente!.</p>
     </form>
     </section>
-
 </main>
-
 <footer>
     <div class="footer-container">
         <p>&copy; 2025 Jacumo Solar. Todos los derechos reservados.</p>
@@ -179,13 +166,11 @@
             <a href="#contacto">Contacto</a>
         </nav>
     </div>
-</footer>     
-<script src="js/contacto.js"></script>  
-<script src="js/main.js"></script>    
+</footer>  
+<script src="main.js"></script>    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <a href="#contacto" class="boton-flotante">
     <i class="fa-solid fa-comment"></i> Contáctanos
  </a>
-   
 </html>
